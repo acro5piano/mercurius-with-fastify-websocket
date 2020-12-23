@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fastify": "^3.9.2",
+    "fastify-websocket": "^2.0.11",
+    "mercurius": "^6.7.0"
+  }
+}
