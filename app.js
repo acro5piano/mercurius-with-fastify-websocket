@@ -19,7 +19,7 @@ app.register(mercurius, {
 })
 
 // It can run the app, but it returns `{"error":"unknown route"}` and quit connection immediately
-app.get('/ws/hello', { websocket: true }, (conn) => {
+app.get('/ws', { websocket: true }, (conn) => {
   console.log(conn)
 })
 
